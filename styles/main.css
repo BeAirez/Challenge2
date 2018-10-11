@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+	box-sizing: border-box;
+}
+*{
+	font-family: Open Sans;
+	padding: 0;
+	margin: 0;
+}
+footer > div > a > img{
+	margin: auto;
+	display: block;
+	height: 50px;
+	width: 50px;
+}
+footer > div{
+	width: 33%;
+	float: left;
+	margin-top: 20px;
+}
+footer > div > p{
+	text-align: center;
+}
+footer{
+	height: 130px;
+}
+img {
+	width: 100%;
+}
+main, aside, footer{
+	background-color: rgb(255,231,225);
+	margin: 6px;
+}
+
+/*animaties*/
+.nav-links, .logo {
+	transition:color 0.2s linear;
+}
+.nav-links:hover {
+	color: white;
+}
+.logo:hover {
+	color: white;
+}
+.social{
+	transition:width 0.4s linear;
+}
+.social:hover{
+	width: 56px;
+	height: 56px;
+}
+
+/*navigatie*/
+.navbar {
+	font-size: 18px;
+	padding-bottom: 10px;
+	background-color: rgb(255,217,187)
+}
+.main-nav {
+	list-style-type: none;
+	display: none;
+}
+.nav-links,
+.logo {
+	text-decoration: none;
+	color: black;
+}
+.main-nav li {
+	text-align: center;
+	margin: 15px auto;
+}
+.logo {
+	display: inline-block;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.navbar-toggle {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	cursor: pointer;
+	color: black;
+	font-size: 24px;
+}
+.active {
+	display: block;
+}
